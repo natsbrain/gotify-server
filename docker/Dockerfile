@@ -58,7 +58,7 @@ LABEL org.opencontainers.image.documentation=https://gotify.net/
 LABEL org.opencontainers.image.source=https://github.com/gotify/server
 
 # Build-time configurables
-ARG GOTIFY_SERVER_EXPOSE=80
+ARG GOTIFY_SERVER_EXPOSE=8080
 ENV GOTIFY_SERVER_PORT=$GOTIFY_SERVER_EXPOSE
 
 WORKDIR /app
