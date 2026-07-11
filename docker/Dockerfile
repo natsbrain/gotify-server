@@ -1,6 +1,6 @@
 ARG BUILDKIT_SBOM_SCAN_CONTEXT=true
 # Suppress warning about invalid variable expansion
-ARG GO_VERSION=PLEASE_PROVIDE_GO_VERSION
+ARG GO_VERSION=1.22
 ARG DEBIAN=sid-slim
 
 # Hack to normalize platform to match the chosed build image
