@@ -12,7 +12,7 @@ ARG __TARGETPLATFORM_GO_NOTATION=${__TARGETPLATFORM_DASHES/arm\/v7/arm-7}
 
 FROM --platform=${BUILDPLATFORM} node:24 AS js-builder
 
-ARG BUILD_JS=0
+ARG BUILD_JS=1
 
 COPY ./Makefile /src/gotify/Makefile
 COPY ./ui /src/gotify/ui
