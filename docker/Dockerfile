@@ -1,4 +1,5 @@
 ARG BUILDKIT_SBOM_SCAN_CONTEXT=true
+
 # Suppress warning about invalid variable expansion
 ARG GO_VERSION=1.26.0
 ARG DEBIAN=sid-slim
